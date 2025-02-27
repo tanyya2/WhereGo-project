@@ -1,0 +1,42 @@
+html {
+  font-size: 62.5%;
+  font-family: "Bodoni Moda", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: aliceblue;
+  width: 100%;
+}
+h1 {
+  text-align: left;
+  font-size: 3em;
+  margin: 2em;
+}
+ul {
+  list-style: none;
+}
+button {
+  font-size: 3em;
+  font-family: "Quintessential", serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  width: 18em;
+  border-radius: 2em;
+  background-color: transparent;
+  width: 60%;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-color: aliceblue;
+  letter-spacing: 0.2em;
+  transition: 0.3s ease-in-out;
+  color: aliceblue;
+}
+button:hover {
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
